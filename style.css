@@ -1,0 +1,207 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100vw;
+    background-color: #545353;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: fixed;
+    
+    
+}
+
+
+.logo h1 {
+    margin: 0;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 60vw;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: larger;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Container */
+
+.container{
+    /* width: 100vw; */
+    height: 100vh ;
+    background-image:url("nature1.jpg") ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage {
+    font-size:20px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left; /* Aligning the text to the left */
+    margin-left: 90px; /* Pushing the text to the right */
+    /* font-size: large; */
+    padding-top: 350px;
+    width: calc(100% - 900px); /* Making space for the container */
+}
+
+.btn1{
+    margin-top: 2%;
+    margin-left:8%;
+    padding: 10px 20px;
+    font-size:25px;
+    font-weight: 100;
+    font-family:sans-serif;
+    background-color: #007bff;
+    color: white ;
+    border-radius: 5px;
+}
+.details{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0PX;
+    height:80vh ;
+    justify-content:space-evenly; 
+    /* align-items: center; */
+    /* text-align: center; */
+    
+}
+.imgone{
+    width: 350px;
+    height: 300px;
+    margin-left: 80PX;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.imgone:hover{
+    filter:drop-shadow(10px);
+}
+.imgtwo{
+    width: 350px;
+    height: 300px;
+    margin-left: 100PX;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.imgthree{
+    width: 350px;
+    height: 300px;
+    margin-left: 100PX;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.one ,.two ,.three{
+    margin-left: 97px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+    max-width: 350px;
+    
+}
+
+.btn2 ,.btn4{
+    margin-left: 97px;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.btn3{
+    margin-left: 97px;
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+
+.explain{
+    /* display: flex; */
+    /* width: 100vw; */
+    height:160vh ;
+    background-color: rgb(224, 223, 223);
+
+}
+
+.firstspan {
+    margin-left: 200px;
+}
+
+.spitiva{
+    margin-top: 20px;
+    max-width: 800px;
+    line-height: 20px;
+    font-size: large;
+    font-weight: 200;
+    font-style: normal ;
+    
+}
+.secondspan{
+    margin-left: 600px;
+    
+}
+
+.rishi{
+    margin-top: 50px;
+}
+.rishikesh{
+    margin-top: 15px;
+    max-width: 800px;
+    line-height: 20px;
+    font-size: large;
+    font-weight: 200;
+    font-style: normal ;
+}
+
+.thirdspan{
+    margin-left: 200px;
+}
+.Zanskar{
+    margin-top: 50px;
+    
+}
+.Zanskarva{
+    margin-top: 15px;
+    max-width: 800px;
+    line-height: 20px;
+    font-size: large;
+    font-weight: 200;
+    font-style: normal ;
+
+}
